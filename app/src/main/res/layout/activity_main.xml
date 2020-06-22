@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+
+
+        app:titleTextAppearance="@style/app_title"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light.DarkActionBar"/>
+
+  <com.google.android.material.tabs.TabLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/toolbar"
+      android:id="@+id/tablayout"
+
+      android:minHeight="?attr/actionBarSize"
+      app:tabTextColor="@android:color/white"
+      app:tabIndicatorColor="@android:color/white"
+      app:tabRippleColor="@android:color/white"
+      android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+      android:background="@color/colorPrimary"/>
+    <androidx.viewpager.widget.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tablayout"
+        android:id="@+id/viewpger"/>
+
+</RelativeLayout>

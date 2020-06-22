@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single" >
+        <item
+            android:id="@+id/pizza"
+            android:icon="@drawable/ic_local_pizza_black_24dp"
+            android:title="Pizza" />
+        <item
+            android:id="@+id/burger"
+            android:icon="@drawable/ic_local_pizza_black_24dp"
+            android:title="Burger" />
+        <item
+            android:id="@+id/specials"
+            android:icon="@drawable/ic_folder_special_black_24dp"
+            android:title="Specials" />
+
+    </group>
+<item android:title="Subheader"/>
+    <group android:menuCategory="system">
+        <item
+            android:id="@+id/contact"
+            android:icon="@drawable/ic_call_black_24dp"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Help" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/ic_settings_power_black_24dp"
+            android:title="Logout" />
+    </group>
+</menu>

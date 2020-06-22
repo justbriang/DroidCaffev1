@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">DroidCaffe</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tablabel_1">Desserts</string>
+    <string name="tablabel_2">Pastries</string>
+    <string name="tablabel_3">Stores</string>
+    <string name="profile_image">Profile image</string>
+    <string name="king_pin">King Pin</string>
+    <string name="pin_gmail_com">pin@gmail.com</string>
+    <string name="open_drawer">Open Navigation Drawer</string>
+    <string name="close_drawer">Close Navigation Drawer</string>
+    <string name="recipe_img">recipe_img</string>
+    <string name="title">Title</string>
+    <string name="avatar">avatar</string>
+    <string name="browser_our_stores_for_a_variety_of_options">Browser our Stores for a variety of options</string>
+    <string name="store_screen">Store screen</string>
+
+
+    <array name="dessert_img">
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/pngwave</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/pngwave</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/pngwave</item>
+    </array>
+
+    <string-array name="dessert_title">
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Sandwich</item>
+        <item>Donut</item>
+        <item>Froyo</item>
+        <item>Sandwich</item>
+
+    </string-array>
+    <string-array name="dessert_description">
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+
+
+    </string-array>
+
+    <array name="hotels">
+        <item>@drawable/hotel1</item>
+        <item>@drawable/hotel2</item>
+        <item>@drawable/hotel3</item>
+        <item>@drawable/hotel4</item>
+        <item>@drawable/hotel5</item>
+        <item>@drawable/hotel1</item>
+        <item>@drawable/hotel2</item>
+        <item>@drawable/hotel3</item>
+        <item>@drawable/hotel4</item>
+        <item>@drawable/hotel5</item>
+    </array>
+    <string-array name="hotelname">
+        <item>Hilton</item>
+        <item>Sarova</item>
+        <item>Siwaka</item>
+        <item>Stc</item>
+        <item>Kfc</item>
+        <item>Steers</item>
+        <item>Cafe Heart</item>
+        <item>Cafe Haze</item>
+        <item>King Pin</item>
+        <item>Pork Palace</item>
+    </string-array>
+    <string-array name="hoteldescription">
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>sandwich that leave a mark</item>
+        <item>taste bud stimulating donut</item>
+        <item>get the best froyo in town</item>
+        <item>nyama nyama nyama nyama nyama!!</item>
+        <item>nyama nyama nyama nyama nyama!!</item>
+
+    </string-array>
+</resources>
